@@ -1,0 +1,143 @@
+.wrapper {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    width: 320px;
+    height: 568px;
+    border-radius: 20px;
+    background: #00223A;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    height: 44px;
+    width: 320px;
+    background: #000000;
+    border-radius: 20px 20px 0px 0px;
+    justify-items: stretch;
+    align-items: center;
+}
+.time {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 13px 0 11px 17.92px;
+    height: 20px;
+    width: 54px;
+    font-family: 'SF Pro Text';
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #FFFFFF;
+}
+.righ-side {
+    display: grid;
+    grid-template-columns: repeat(3, 21px);
+    align-content: end;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 12px;
+}
+.indecators_1 {
+    width: 14.51px;
+    height: 10.67px;
+}
+.indecators_2 {
+    width: 13.08px;
+    height: 11px;
+}
+.indecators_3 {
+    width: 20.76px;
+    height: 11.33px;
+}
+.calculation {
+    width: 320px;
+    height: 157px;
+    background: #00223A;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+.calculation_numbers {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    cursor: pointer;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+/* identical to box height, or 83% */
+letter-spacing: -0.24px;
+
+color: #FFFFFF;
+width: 320px;
+height: 78.5px;
+padding-right: 24px;
+padding-bottom: 8px;
+}
+.red{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 20px;
+    color:  rgba(255, 96, 96, 1);
+    letter-spacing: -0.24px;
+}
+.sum {
+    padding-right: 24px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: end;
+    width: 320px;
+height: 78.5px;
+    cursor: pointer;   
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 20px;
+/* identical to box height, or 62% */
+letter-spacing: -0.24px;
+color: #FFFFFF;
+}
+.bottons {
+    width: 320px;
+height: 368px;
+display: grid;
+grid-template-columns: repeat(4, minmax(0, 1fr));
+place-items: center;
+background: #001B2F;
+border-radius: 20px 20px 20px 20px;
+}
+.white_numbers {
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24.4828px;
+color: #FFFFFF;
+}
+.blue_numbers{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24.4828px;
+color: #00B0D7;
+}
+.red_numbers{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24.4828px;
+color: #FF6060;
+background: #001A2D;
+}
